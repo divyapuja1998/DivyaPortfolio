@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/stuff/about.jpeg">
+    <title>Divya Portfolio</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Divya</a>
+        
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Educations</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+
+            <span class="active-nav"></span>
+        </nav>
+    </header>
+
+    <!-- home design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Divya Kumari</span></h1>
+            <div class="text-animation">
+                <h3>Software Developer</h3>
+            </div>
+            <p>A self-motivated and hardworking fresher looking
+                for an opportunity to begin my career and expand
+                my learnings, knowledge, and skills in a professional environment.</p>
+                
+            <div class="media">
+                <a href="https://www.linkedin.com/in/divyar9kumari/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.drupal.org/u/divya2022"><i class='bx bxl-drupal'></i></a>
+                <a href="mailto:divyapuja1998@gmail.com"><i class='bx bxl-gmail'></i></a>
+            </div>
+            
+            <div>
+                <a href="/stuff/Resume .pdf" download class="cv-btn">Download CV</a>
+            </div>
+            
+        </div>
+
+        <!-- <div class="home-img">
+            <img src="/stuff/d_pic.jpeg" alt="">
+        </div> -->
+    </section>
+
+    <!-- about design -->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me..</span></h2>
+        <div class="about-img">
+            <img src="/stuff/about.jpeg" alt="">
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>Software Developer</h3>
+            <p>I'm MCA graduate from Dr D. Y. Patil School of MCA, Pune with a remarkable CGPA of 9.32 in 2022. Throughout my academic journey, I have gained extensive knowledge in various technical areas such as C Programming, HTML, CSS, JavaScript, MySql, and Python.</p> 
+            <div id="dots"></div>
+            <div id="more">
+                <p>To further enhance my skill set, I have also pursued online courses on platforms like Udemy and YouTube, where I acquired knowledge in Drupal. Currently, I am actively learning React JS and MERN Stack to broaden my expertise in web development.</p>
+                <p>As a fresher in the industry, I am enthusiastic about applying my skills and knowledge to real-world projects. I possess a strong passion for software development and have a keen eye for detail. I am always open to learning new technologies and expanding my knowledge in the rapidly evolving industry.</p>
+                <p>If you are looking for a dedicated and talented Software developer who is eager to contribute and grow, I would be thrilled to connect with you.</p>
+            </div>
+
+            <div class="btn-box">
+                <!-- <a href="showMore()" id="link" class="btn">Read More</a> -->
+                <button onclick="myfunction()" id="myBtn" class="btn" >Read More</button>
+            </div>   
+        </div>
+    </section>
+
+    <!-- Education Design -->
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Education..</span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-calendar'></i>2019 - 2022</div>
+                            <h3><i class='bx bxs-graduation'></i> MCA</h3>
+                            <p>Dr D. Y. Patil School of MCA, Pune</p>
+                            <p>9.32 CGPA</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-calendar'></i>2015 - 2018</div>
+                            <h3><i class='bx bxs-graduation'></i> B.Sc.(Information Technology)</h3>
+                            <p>Gaya College, Gaya, Bihar</p>
+                            <p>65.20%</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-calendar'></i>2015</div>
+                            <h3><i class='bx bxs-school'></i> 12th (Intermediate)</h3>
+                            <p>High School, Nasriganj, Bihar</p>
+                            <p>66%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills design -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>skills..</span></h2>
+
+        <!-- technical skills design -->
+        <div>
+            <h3 class="skills-title">Skills</h3>
+            <div class="skills-row">
+                <div class="skills-column">
+                    <div class="skills-box">
+                        <div class="skills-content">
+                            <div class="progress">
+                                <h3>HTML <span>90%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+
+                            <div class="progress">
+                                <h3>CSS <span>75%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+
+                            <div class="progress">
+                                <h3>JavaScript <span>60%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+
+                            <div class="progress">
+                                <h3>React JS <span>60%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-column">
+                    <div class="skills-box">
+                        <div class="skills-content">
+                            <div class="progress">
+                                <h3>C Programming <span>80%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+
+                            <div class="progress">
+                                <h3>Python <span>85%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+
+                            <div class="progress">
+                                <h3>MySql <span>67%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+
+                            <div class="progress">
+                                <h3>Drupal <span>50%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Accomplishment design -->
+        <div>
+            <h3 class="skills-title">Accomplishment</h3>
+            <div class="accomplishment-container">
+                <div class="accomplishment-box">
+                    <img src="stuff/python_certificate.jpg" alt="">
+                    <div class="accomplishment-layer">
+                        <h4>Python Basic Programs</h4>
+                        <a href="https://drive.google.com/file/d/12LwQwHME34lYVAb33XddUDAS9djbqfzd/view?usp=sharing"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="accomplishment-box">
+                    <img src="stuff/C_Certificate.jpg" alt="">
+                    <div class="accomplishment-layer">
+                        <h4>C Programming</h4>
+                        <a href="https://drive.google.com/file/d/1BrKQ0AJ6w5YuhIAEU8kl7y3DD-rmRfBz/view?usp=share_link"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="accomplishment-box">
+                    <img src="stuff/ReactJs_certificate.jpg" alt="">
+                    <div class="accomplishment-layer">
+                        <h4>ReactJs_certificate</h4>
+                        <a href="https://drive.google.com/file/d/1v9NOrgFqmwWYjpvUgWyhPo23L718QR4V/view?usp=sharing"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="accomplishment-box">
+                    <img src="stuff/website.png" alt="">
+                    <div class="accomplishment-layer">
+                        <h4>Responsive Web Design</h4>
+                        <a href="https://www.freecodecamp.org/certification/divya_2023/responsive-web-design"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="accomplishment-box">
+                    <img src="stuff/JS. Scaler_certificate.png" alt="">
+                    <div class="accomplishment-layer">
+                        <h4>JavaScript for SDEs</h4>
+                        <a href="https://moonshot.scaler.com/s/sl/-BQXeFaP4q"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me..</span></h2>
+         <form action="https://formspree.io/f/mpzevkkl" method="post" id="form" name="form">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="email" name="email" placeholder="Email ID" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" name="number" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="textarea-field">
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Write Message" required></textarea>
+                <span class="focus"></span>
+            </div>
+
+            <div class="btn-box btns">
+                <button type="submit" id="submit" name="submit" class="btn" onclick="submitForm">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer Design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Divya | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-upIcon">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
